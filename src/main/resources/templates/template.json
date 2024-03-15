@@ -1,0 +1,31 @@
+{
+  "boolean": false,
+  "int": "int",
+  "long": "long",
+  "double": "double",
+  "datetime": "datetime(yyyy-MM-dd'T':HH:mm:ss.SSSZ,America/Los_Angeles)",
+  "alpha": "alpha",
+  "alphanumeric": "alphanumeric",
+  "sequence": "seq",
+  "sequence_start": "seq(1001)",
+  "int_range": "int(1, 10)",
+  "long_range": "long(1000000, 1000000000)",
+  "double_range": "double(1500.0000, 1994.760143995285)",
+  "datetime_seq": "datetime(11/Aug/2021:00:15:03,11/Aug/2021:16:15:03,dd/MMM/yyyy:HH:mm:ss Z,second)",
+  "datetime_seq": "datetime(now-5,now,dd/MMM/yyyy:HH:mm:ss Z,second)",
+  "datetime_range": "datetime(2018-01-20T00:00:00.000Z,2018-01-20T00:33:14.967Z)",
+  "quoted_string": "qs(hello world)",
+  "alpha": "alpha(10)",
+  "alphanumeric": "alphanumeric(12)",
+  "concat_int": "cat(int, SPACE, hz)",
+  "concat_int_range": "cat(int(0, 10), SPACE, km)",
+  "concat_double": "cat(double(150.0, 192.000), SPACE,kcal)",
+  "uuid": "uuid",
+  "random": "random(America/Los_Angeles, America/Vancouver, Europe/Berlin, Europe/Zurich, Europe/London, Asia/Dubai, Asia/Kolkata, Asia/Tokyo)",
+  "nested": [
+    {
+    "double": "double",
+    "datetime": "datetime"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+
+{
+  "id": "uuid",
+  "first_name": "alpha",
+  "last_name": "alpha",
+  "age": "int(21,90)",
+  "phone": "cat(408, -, int(400, 999), -, int(1000, 9999))",
+  "email": "cat(alphanumeric, @, random(yahoo,gmail,hotmail), .com)",
+  "state": "random(AZ,CA,FL,NY,NC,SC,WA,UT,TX)"
+}
